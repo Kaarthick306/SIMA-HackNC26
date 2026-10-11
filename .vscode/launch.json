@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:HackNC26}/MacAgent/menubar",
+            "name": "Debug MacAgentBar (MacAgent/menubar)",
+            "target": "MacAgentBar",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug MacAgentBar (MacAgent/menubar)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:HackNC26}/MacAgent/menubar",
+            "name": "Release MacAgentBar (MacAgent/menubar)",
+            "target": "MacAgentBar",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release MacAgentBar (MacAgent/menubar)"
+        }
+    ]
+}
