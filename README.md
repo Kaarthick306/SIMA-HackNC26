@@ -28,6 +28,11 @@ SIMA is a modular computer use agent that is meant to be accessible, adaptable, 
 -Setting up VNC client using RFB protocol
 -Complexity of binary handling 
 
+##What awaits us in the future:
+1. While we were only able to make 1 modular agent, we aim to produce multiple Menubar agents and mcp agents such that they can be easily switched without hastle.
+
+1. Menubar apps supporting other coding agents is a good starting point. We also aim to build a community of SIMA contributors.
+
 
 ## Tools and frameworks
 
@@ -149,4 +154,15 @@ The iMessage bridge (`dist/imessages.js`) also needs `MAC_AGENT_IMESSAGE_HANDLE`
 
 ##AI Use Disclosure
 
-The complexity and scale of the project necessitated the educational use of AI.
+###The complexity and scale of the project necessitated the educational use of AI.
+
+1. ChatGPT - for problem breakdown, syntax aid, storyboarding, explanation of new frameworks and algorithms.
+
+2. Claude Code:
+    - Used headlessly within code instead of API calls and is handled by MCP server, that provides computer use tools and memory optimization tools.
+
+    - It the coding process, it was used in production of Boilerplate code (especially for menubar app), code planning, testing, debugging, occasional code completion and code optimization. Several subsidary files that aid in the interactive experience of the app without direct effect on functionality was written by Claude Code. They are: Aero.swift (To match theme of hackathon), SharedFolder.swift (optional shared folder between use and agent), WindowVisibility.swift (For slidable app windows), spike.ts (feasibility check),and ask.ts (permission asking for closing tabs in user's tab). Despite AI's contribution to the files, all of them were reviewed and validated by us.
+
+    - While most documentations were made by me, the documentations in the AI written files and certain documentation in the other files may be attributed to AI. The parts with explicit use of AI are often mentioned along the code's documentation in places they were used.
+
+    - We understand that AI is a creative resource and was not used to automatically source ideas or produce core functionality. AI was used as an educational tool to incide creativity, and for educational purposes.
